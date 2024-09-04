@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+
+h1{
+    color: aliceblue;
+    text-shadow: 2px 2px 5px rgb(49, 242, 191);
+    text-align: center;
+}
+div.contenedor{
+    background-color: rgb(96, 94, 94);
+    display: flex;
+    height: 60px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-items: stretch;
+   
+
+
+}
+div.contenedor>div{
+display: 50px;
+background-color: rgb(96, 94, 94);
+color: rgb(249, 249, 249);
+padding: 21px;
+transform-origin: left;
+width: 300px;
+
+}
+
+div.parrafo{
+    background-color: rgb(186, 81, 81);
+    height: 800px;
+    padding: 40px;
+  
+}
+div.contenedor > div:hover {
+    background-color:rgb(123, 123, 146); /* Cambia el color de fondo a amarillo */
+    
+
+  }

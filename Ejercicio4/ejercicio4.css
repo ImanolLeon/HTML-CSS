@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: aqua;
+    padding: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 5px black ;
+    color: aliceblue;
+}
+div.contenedor{
+    display: flex;
+    background-color: black;
+    height: 60px;
+    align-items: center;
+    justify-content: start;
+   
+}
+div.contenedor>div{
+    background-color:black;
+   color: aliceblue;
+    padding:20px ;
+    width: 80px;
+   
+    
+
+
+}
+div.contenedor2{
+    display: flex;
+    flex-direction: row;
+}
+.aside{
+    flex: 30%;
+    background-color: blue;
+    padding: 20px;
+  
+}
+.Section{
+    flex: 70%;
+    background-color: blueviolet;
+    padding:20px;
+}
+.footer{
+    background-color: brown;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+  font-size: 2.5em;
+}
+

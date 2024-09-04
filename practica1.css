@@ -1,0 +1,48 @@
+body{
+    margin: 0%;
+}
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(99, 99, 205) ;
+    color: aliceblue;
+}
+div.contenedor{
+    border: solid 1px black;
+    height: 300px;
+    display: flex;
+    background-color: aqua;
+    flex-direction: row ;
+    flex-wrap:wrap ;
+    justify-content: center;
+    align-content: stretch;
+    
+
+
+}
+
+
+div.contenedor>div{
+    padding: 40px;
+    font-size: 1em;
+}
+
+.primero{
+    background-color: aquamarine;
+}
+
+.segundo{
+    background-color: rgb(125, 125, 214);
+}
+.tercero{
+    background-color: rgb(203, 150, 150);
+    
+}
+.cuarto{
+    background-color: blanchedalmond;
+}
+.quinto{
+    background-color: rgb(228, 111, 111);
+}
+.sexto{
+    background-color: rgb(99, 99, 248);
+}

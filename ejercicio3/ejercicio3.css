@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+.cabeza{
+    display: flex;
+    background-color: rgb(244, 255, 127);
+}
+div.contaner{
+    display: flex;
+    
+}
+.barraPrincipal{
+    flex: 30%;
+    background-color: antiquewhite;
+    padding: 20px;
+    height: 250px;
+}
+.contenidoPrincipal{
+    flex: 70%;
+    background-color: aquamarine;
+    padding: 20px;
+}
+.piePagina{
+    display: flex;
+    background-color: blue;
+    justify-content: center;
+    
+    padding: 10px;
+}

@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 2px 2px 5px blue;
+}
+div.contenedor{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 700px;
+    align-items: flex-start;
+
+}
+div.contenedor>div{
+    border: solid 1px black;
+    background-color: rgb(237, 224, 208);
+    padding: 10px;
+    margin: 5px;
+
+}
+div.mundo{
+    display: flex;
+    flex-direction: column;
+}
+
+div.mundo>div{
+    background-color: rgb(237, 224, 208);
+
+ margin: 20px; 
+}
+
+.parrafoMundo{
+text-align: center;
+}
+
+.mundo img{
+    height: 200px;
+}
+div.mensaje{
+    display: flex;
+    flex-direction: column;
+
+}
+div.mensaje>div{
+    background-color: rgb(237, 224, 208);
+    margin: 20px;
+}
+
+.mensaje img{
+    height: 200px;
+}
+.parrafoMensaje{
+    text-align: center;
+}
+
+div.telefono{
+    display: flex;
+    flex-direction: column;
+}
+div.telefono>div{
+    background-color: rgb(237, 224, 208);
+    margin: 20px;
+
+}
+.telefono img{
+    height: 200px;
+}
+.parrafoTelefono{
+    text-align: center;
+}
+@media (max-width:829px){
+    div.contenedor{
+        background-color: antiquewhite;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 700px;
+        align-items: flex-start;
+        
+    
+    }
+    div.telefono{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .telefono{
+        justify-content: center;
+        width: 510px;
+        
+    }
+    
+    .telefono img{
+    
+        height: 200px;
+        align-items: center;
+        
+        
+    }
+}
+
+@media (max-width:557px){
+    div.contenedor{
+        background-color: antiquewhite;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 1000px;
+        align-items: flex-start;
+        
+    
+    }
+    
+    div.telefono{
+        display: flex;
+        flex-wrap: wrap;
+       justify-content: center;
+       width: 240px;
+       
+       
+        
+    }
+
+}
+
+
+
