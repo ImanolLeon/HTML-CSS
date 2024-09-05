@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    color: rgb(234, 234, 234);
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+}
+
+h2 {
+    text-align: center;
+}
+
+div.Contenedor {
+    display: grid;
+    background-color: aqua;
+    grid-template-columns: 25% 25% 50% ;
+    grid-template-rows: 30% 70%;  
+    align-items: center;
+    padding: 50px;
+}
+
+div.Contenedor>div {
+    background-color: aquamarine;
+    padding: 20px;
+    
+    border: 1px dashed #333;
+    justify-content: space-between;
+}
+
+
+
